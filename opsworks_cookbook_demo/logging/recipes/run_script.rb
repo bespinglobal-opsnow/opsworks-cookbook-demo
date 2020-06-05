@@ -1,5 +1,4 @@
 Chef::Log.info("******Uploading logs to s3.******")
-
 script "Run a script" do
   interpreter "bash"
   code <<-EOH
